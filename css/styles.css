@@ -14,6 +14,9 @@ ul {
   text-transform: uppercase;
   color: #2e2f42;
   text-decoration: none;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 span {
@@ -23,6 +26,10 @@ span {
 .page-nav .link {
   color: #2e2f42;
   text-decoration: none;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
@@ -35,6 +42,9 @@ span {
 .contacts-list .link {
   color: #434455;
   text-decoration: none;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 24px;
 }
 .contacts-list .link:hover,
 .contacts-list .link:focus {
@@ -54,6 +64,12 @@ footer {
   color: #f4f4fd;
   text-align: center;
   font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 60px;
+  font-weight: 700;
+}
+.post-subtitle {
+  text-align: center;
 }
 .title-team h2 {
   background-color: #f4f4fd;
