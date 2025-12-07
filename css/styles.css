@@ -1,5 +1,72 @@
 body {
-  font-family: Arial, sans-serif;
-  color: #ddd6d6;
-  background-color: #110101;
+  font-family: Roboto, Raleway, sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+span {
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.page-nav .link {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #404bbf;
+}
+
+.page-nav #link-line:active {
+  text-decoration: underline;
+}
+.contacts-list .link {
+  color: #434455;
+  text-decoration: none;
+}
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: #404bbf;
+}
+.down-logo .logo {
+  color: #f4f4fd;
+}
+footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+.post {
+  background-color: #2e2f42;
+}
+.post-title {
+  color: #f4f4fd;
+  text-align: center;
+  font-size: 56px;
+}
+.title-team h2 {
+  background-color: #f4f4fd;
+  text-align: center;
+  font-size: 36px;
+}
+.title-team ul h3,
+.title-team ul p {
+  text-align: center;
+}
+button {
+  background-color: #4d5ae5;
+}
+button:hover {
+  background-color: #404bbf;
 }
