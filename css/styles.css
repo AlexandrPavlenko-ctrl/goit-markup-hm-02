@@ -1,6 +1,6 @@
 body {
-  font-family: Roboto, Raleway, sans-serif;
-  color: #000000;
+  font-family: Roboto, sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -16,19 +16,22 @@ ul {
   text-decoration: none;
   letter-spacing: 0.03em;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
 }
-
+.down-logo .logo {
+  color: #f4f4fd;
+}
 span {
   color: #4d5ae5;
   text-decoration: none;
 }
-.page-nav .link {
+.page-nav .link,
+.page-nav .link-line {
   color: #2e2f42;
   text-decoration: none;
   letter-spacing: 0.02em;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 500;
 }
 .page-nav .link:hover,
@@ -36,7 +39,11 @@ span {
   color: #404bbf;
 }
 
-.page-nav #link-line:active {
+.page-nav .link-line:hover,
+.page-nav .link-line:focus {
+  color: #404bbf;
+}
+.page-nav .link-line:active {
   text-decoration: underline;
 }
 .contacts-list .link {
@@ -44,45 +51,67 @@ span {
   text-decoration: none;
   letter-spacing: 0.02em;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 }
 .contacts-list .link:hover,
 .contacts-list .link:focus {
   color: #404bbf;
 }
-.down-logo .logo {
-  color: #f4f4fd;
-}
+
 footer {
   color: #f4f4fd;
   background-color: #2e2f42;
 }
+
 .post {
   background-color: #2e2f42;
 }
 .post-title {
-  color: #f4f4fd;
+  color: #ffffff;
   text-align: center;
   font-size: 56px;
   letter-spacing: 0.02em;
-  line-height: 60px;
+  line-height: 1.07;
   font-weight: 700;
 }
 .post-subtitle {
   text-align: center;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  font-weight: 700;
 }
-.title-team h2 {
+.title-team {
   background-color: #f4f4fd;
+}
+
+.title-team h2 {
   text-align: center;
   font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+}
+.title-team ul li {
+  background-color: #ffffff;
 }
 .title-team ul h3,
 .title-team ul p {
   text-align: center;
 }
-button {
-  background-color: #4d5ae5;
+
+h2,
+h3 {
+  color: #2e2f42;
 }
-button:hover {
+.click-item {
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.click-item:hover {
   background-color: #404bbf;
 }
